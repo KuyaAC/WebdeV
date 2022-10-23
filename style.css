@@ -125,10 +125,12 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+    text-align: center;
 }
 .services-list div:hover{
     background: yellow;
     transform: translateY(-10px);
+
 }
 /*-------how2------*/
 #how2{
@@ -148,6 +150,7 @@ nav ul li a:hover::after{
 }
 #contact h1{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .contact-left p{
     
