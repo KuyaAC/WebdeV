@@ -174,11 +174,7 @@ width: 80%;
 border-radius: 50%;
 }
 /*-----------css for small screen -----------*/
-
-nav .fa-solid ul{
-    display: none;
-}
-nav .fa-solid {
+nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
@@ -205,6 +201,7 @@ nav .fa-solid {
         margin: 25px;
     }
     nav ul .fa-solid{
+
         position: absolute;
         top: 25px;
         left: 25px;
@@ -219,6 +216,7 @@ nav .fa-solid {
         cursor: pointer;
         font-size: 30px;
         color: #000;
+        display: block;
     }
     .subtitle{
         font-size: 40px;
